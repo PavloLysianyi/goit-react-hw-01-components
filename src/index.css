@@ -96,13 +96,19 @@ ul {
   list-style: none;
   padding: 0;
   display: flex;
-  border-top: 1px solid;
 }
 
 .friend-list {
   padding: 0;
   display: flex;
   flex-direction: column;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .item {

@@ -23,7 +23,7 @@ const Statistics = ({ title, stats }) => {
         {stats.map(({ id, label, percentage }) => (
           <li
             key={id}
-            className="item"
+            className="items"
             style={{ backgroundColor: generateRandomColor() }}
           >
             <span className="label">{label}</span>

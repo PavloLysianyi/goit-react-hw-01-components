@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
 
 body {
   margin: 0;
@@ -12,4 +12,146 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.profile {
+  max-width: 400px;
+  border: 1px solid;
+}
+
+.description {
+}
+
+.avatar {
+  width: 200px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+
+.name {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.tag {
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+}
+
+.stats {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.followers {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.views {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.likes {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.quantity {
+  font-weight: bold;
+}
+
+.statistics {
+  font-family: Arial, sans-serif;
+  width: 200px;
+  margin: 20px;
+}
+
+.stat-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  border-top: 1px solid;
+}
+
+.friend-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.transaction-history {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.transaction-history th,
+.transaction-history td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.transaction-history th {
+  background-color: #f2f2f2;
+}
+
+.transaction-history tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.transaction-history th,
+.transaction-history td {
+  width: calc(100% / 3);
 }
